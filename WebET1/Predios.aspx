@@ -6,11 +6,15 @@
         <asp:GridView ID="GridViewPredios" runat="server" CssClass="table table-bordered table-striped display" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="pre_id" HeaderText="ID" />
+<<<<<<< HEAD
                 <asp:BoundField DataField="pre_codigo_catastral" HeaderText="Code  Catastral" />
+=======
+                <asp:BoundField DataField="pre_codigo_catastral" HeaderText="Codigo Catastral" />
+>>>>>>> 68f05ebb2f956effa66acd06910c5cd9eaa44571
                 <asp:BoundField DataField="pre_nombre_predio" HeaderText="Nombre del Predio" />
-                <asp:BoundField DataField="pre_direccion_principal" HeaderText="Dirección" />
+                <asp:BoundField DataField="pre_direccion_principal" HeaderText="Direccion" />
                 <asp:BoundField DataField="pre_area_total_ter" HeaderText="Área Terreno " />
-                <asp:BoundField DataField="pre_area_total_const" HeaderText="Área Construcción " />
+                <asp:BoundField DataField="pre_area_total_const" HeaderText="Área Construccion " />
                 <asp:BoundField DataField="pre_num_habitantes" HeaderText="Habitantes" />
                 <asp:BoundField DataField="pre_estado" HeaderText="Estado" />
             </Columns>
