@@ -6,7 +6,7 @@
         <asp:GridView ID="GridViewPredios" runat="server" CssClass="table table-bordered table-striped display" AutoGenerateColumns="False">
             <Columns>
                 <asp:BoundField DataField="pre_id" HeaderText="ID" />
-                <asp:BoundField DataField="pre_codigo_catastral" HeaderText="Código Catastral" />
+                <asp:BoundField DataField="pre_codigo_catastral" HeaderText="Code  Catastral" />
                 <asp:BoundField DataField="pre_nombre_predio" HeaderText="Nombre del Predio" />
                 <asp:BoundField DataField="pre_direccion_principal" HeaderText="Dirección" />
                 <asp:BoundField DataField="pre_area_total_ter" HeaderText="Área Terreno " />
